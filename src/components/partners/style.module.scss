@@ -1,0 +1,135 @@
+.partners {
+  background-color: var(--clr-white-100);
+  padding-top: 352px;
+  background-image: url(../../assets/images/bgofpartnyors.png);
+  .container {
+    max-width: 1040px;
+    margin: 0 auto;
+    h2 {
+      font-family: var(--ff-primary);
+      font-style: normal;
+      font-weight: var(--wf-semi-bold);
+      font-size: var(--fs-400);
+      line-height: var(--fs-600);
+      text-align: center;
+      color: var(--clr-accent-100);
+      margin-bottom: var(--fs-600);
+      padding-top: 88px;
+    }
+    .image__wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .item {
+      width: calc((100% - 128px) / 4);
+      height: 146px;
+      background: var(--clr-gray-100);
+      box-shadow: 0px 1px 2px rgba(85, 105, 135, 0.1);
+      border-radius: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 86px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .partners {
+    padding-top: 110px;
+    .container {
+      max-width: 426px;
+
+      .image__wrapper {
+        gap: 0.4rem;
+      }
+      .item {
+        height: 46px;
+        border-radius: 4px;
+        margin-bottom: 18px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .partners {
+    padding-top: 160px;
+    .container {
+      max-width: 568px;
+
+      .image__wrapper {
+        gap: 0.8rem;
+      }
+      .item {
+        height: 66px;
+        border-radius: 4px;
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .partners {
+    padding-top: 210px;
+    .container {
+      max-width: 753px;
+
+      .image__wrapper {
+        gap: 1.2rem;
+      }
+      .item {
+        height: 90px;
+        border-radius: 5px;
+        margin-bottom: 72px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .partners {
+    padding-top: 240px;
+    .container {
+      max-width: 912px;
+
+      .image__wrapper {
+        gap: 1.6rem;
+      }
+      .item {
+        height: 120px;
+        border-radius: 5px;
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .partners {
+    padding-top: 250px;
+    .container {
+      max-width: 1040px;
+
+      .image__wrapper {
+        gap: 2rem;
+      }
+      .item {
+        height: 135px;
+        border-radius: 6px;
+        margin-bottom: 72px;
+      }
+    }
+  }
+}
